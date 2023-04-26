@@ -58,7 +58,7 @@ const loginuser = async(e) => {
     //       })
     //   });
 
-      const res = await data.json();
+    //   const res = await data.json();
       //  console.log(res);
 
       if(res.status === 201){
