@@ -92,15 +92,15 @@ export default function Register() {
             //     })
             // });
 
-            const res = await data.json();
-            // console.log(res.status);
+            // const res = await data.json();
+            // // console.log(res.status);
 
-            if (res.status === 201) {
-                toast.success("Registration Successfully done", {
-                    position: "top-center"
-                });
-                setInpval({ ...inpval, name: "", email: "",phone:"", password: "", cpassword: "" });
-            }
+            // if (res.status === 201) {
+            //     toast.success("Registration Successfully done", {
+            //         position: "top-center"
+            //     });
+            //     setInpval({ ...inpval, name: "", email: "",phone:"", password: "", cpassword: "" });
+            // }
         }
     }
 
