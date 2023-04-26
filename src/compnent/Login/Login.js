@@ -61,15 +61,15 @@ const loginuser = async(e) => {
     //   const res = await data.json();
       //  console.log(res);
 
-      if(res.status === 201){
-          localStorage.setItem("usersdatatoken",res.result.token);
-          history("/logout")
-          setInpval({...inpval,email:"",password:""});
-      }else{
-          toast.error("Invalid Credentials", {
-              position: "top-center"
-          });
-      }
+    //   if(res.status === 201){
+    //       localStorage.setItem("usersdatatoken",res.result.token);
+    //       history("/logout")
+    //       setInpval({...inpval,email:"",password:""});
+    //   }else{
+    //       toast.error("Invalid Credentials", {
+    //           position: "top-center"
+    //       });
+    //   }
   }
 }
   return (
