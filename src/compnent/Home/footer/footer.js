@@ -149,27 +149,27 @@ export default function Footer(){
                   <a
                     href="https://www.facebook.com/zomato"
                     target="_blank"
-                    class="fa fa-facebook"
+                    className="fa fa-facebook"
                   ></a>
                   <a
                     href="https://twitter.com/zomato"
                     target="_blank"
-                    class="fa fa-twitter"
+                    className="fa fa-twitter"
                   ></a>
                   <a
                     href="https://www.instagram.com/zomato/"
                     target="_blank"
-                    class="fa fa-instagram"
+                    className="fa fa-instagram"
                   ></a>
                   <a
                     href="https://www.youtube.com/zomato"
                     target="_blank"
-                    class="fa fa-youtube"
+                    className="fa fa-youtube"
                   ></a>
                   <a
                     href="https://in.linkedin.com/company/zomato"
                     target="_blank"
-                    class="fa fa-linkedin"
+                    className="fa fa-linkedin"
                   ></a>
                 </div>
               </li>

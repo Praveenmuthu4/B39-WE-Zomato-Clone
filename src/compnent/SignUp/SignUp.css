@@ -1,6 +1,6 @@
 section {
   padding: 5px;
-  min-height: calc(100vh - 80px);
+  /* min-height: calc(100vh - 80px); */
 }
 
 section .form_data {

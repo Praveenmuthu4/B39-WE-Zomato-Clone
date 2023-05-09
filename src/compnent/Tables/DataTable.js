@@ -18,7 +18,7 @@ export default function DataTable({
     let value;
     if (Array.isArray(data)) {
       value = data.map((o, i) => (
-        <span key={i} class="badge text-bg-primary">
+        <span key={i} className="badge text-bg-primary">
           {o}
         </span>
       ));
@@ -37,7 +37,7 @@ export default function DataTable({
   return (
     <div id="data-table">
       <div className="card table-responsive">
-        <table class="table table-striped table-hover table-bordered">
+        <table className="table table-striped table-hover table-bordered">
           <thead>
             <tr>
               {header.length > 0
@@ -64,30 +64,30 @@ export default function DataTable({
                     ))}
                     <td>
                       <div
-                        class="btn-group"
+                        className="btn-group"
                         role="group"
                         aria-label="Basic example"
                       >
                         <button
                           type="button"
-                          class="btn btn-primary"
+                          className="btn btn-primary"
                           onClick={() => handleOptions("addFood", d._id)}
                         >
                           Add Food
                         </button>
-                        <button type="button" class="btn btn-warning">
+                        <button type="button" className="btn btn-warning">
                           Manage Foods
                         </button>
                         <button
                           type="button"
-                          class="btn btn-info"
+                          className="btn btn-info"
                           onClick={() =>
                             handleOptions("updateRestaurant", d._id)
                           }
                         >
                           Update Restaurant
                         </button>
-                        <button type="button" class="btn btn-danger">
+                        <button type="button" className="btn btn-danger">
                           Delete Restaurant
                         </button>
                       </div>

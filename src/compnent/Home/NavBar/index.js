@@ -1,8 +1,17 @@
-import React from "react";
-import { Link} from "react-router-dom";
+import React, { useState } from "react";
 import "./Navbar.css";
+import LocationSearch from "../../LocationSearch/LocationSearch";
+import IconButton from "@mui/material/IconButton";
+import ExpandLessIcon from '@mui/icons-material/ExpandLess';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 export default function NavBar() {
+
+  const [toggle, setToggle] = useState(true);
+  const locationStyle = {
+    display: toggle ? "block" : "none",
+  };
+
   return (
     <div>
       <div className="top-container">
@@ -20,9 +29,9 @@ export default function NavBar() {
                 </a>
               </li>
               <li tabIndex="0" className="list-icon">
-                <Link className="link-style list-content" to="createRestaurant">
+                <a className="link-style list-content" href="createRestaurant">
                 Add Restaruant
-            </Link>
+            </a>
               </li>
               <li tabIndex="0" className="list-icon">
                 <a src="true" tabIndex="-1" className="list-content" href="/login">
@@ -74,7 +83,20 @@ export default function NavBar() {
                   color="#FF7E8B"
                 ></i>
                 <input className="input-search" />
-                <i className="btn dropdown-toggle search-icon2" size="12"></i>
+                {/* <i className="btn dropdown-toggle search-icon2" size="12"></i> */}
+                <IconButton
+            aria-label="Toggle content"
+            onClick={() => setToggle(!toggle)}
+            color="primary"
+          >
+            {toggle ? <ExpandLessIcon /> : <ExpandMoreIcon />}
+          </IconButton>
+          {toggle ? (
+        <div className="" style={locationStyle}>
+          <LocationSearch/>
+        </div>
+      ) : null}
+          
               </div>
               <div className="middle-line"></div>
               <div className="main-search-container">

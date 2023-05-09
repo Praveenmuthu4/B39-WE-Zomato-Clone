@@ -13,7 +13,7 @@ export default function BasicDropdown({
         {label}
       </label>
       <select
-        class="form-select"
+        className="form-select"
         aria-label="Default select example"
         id={id}
         onChange={handleChange}

@@ -9,7 +9,7 @@ import Explore from "../explore/explore";
 export default function FrontPage() {
   const navigate = useNavigate();
   const handleLocation = () => {
-    navigate("/OnlinePage");
+    navigate("/chennai/order-Food-online");
   };
   const navigate2 = useNavigate();
   const handleLocation2 = () => {
@@ -30,7 +30,7 @@ export default function FrontPage() {
       <div className=".top-container">
         <div className="top-container-content">
           <div
-            class="containerP"
+            className="containerP"
             onClick={() => {
               handleLocation();
             }}
@@ -40,10 +40,10 @@ export default function FrontPage() {
               src="https://b.zmtcdn.com/webFrontend/e5b8785c257af2a7f354f1addaf37e4e1647364814.jpeg?fit=around|402:360&crop=402:360;*,*"
               alt=""
             />
-            <div class="tag">Order Online</div>
+            <div className="tag">Order Online</div>
           </div>
           <div
-            class="containerP"
+            className="containerP"
             onClick={() => {
               handleLocation2();
             }}
@@ -53,10 +53,10 @@ export default function FrontPage() {
               src="https://b.zmtcdn.com/webFrontend/d026b357feb0d63c997549f6398da8cc1647364915.jpeg?fit=around|402:360&crop=402:360;*,*"
               alt=""
             />
-            <div class="tag">Dining Out</div>
+            <div className="tag">Dining Out</div>
           </div>
           <div
-            class="containerP"
+            className="containerP"
             onClick={() => {
               handleLocation3();
             }}
@@ -66,10 +66,10 @@ export default function FrontPage() {
               src="https://b.zmtcdn.com/webFrontend/7c5da5fa471e5e5f26745709f60498a71647365004.jpeg?fit=around|402:360&crop=402:360;*,*"
               alt=""
             />
-            <div class="tag">Pro and Pro Plus</div>
+            <div className="tag">Pro and Pro Plus</div>
           </div>
           <div
-            class="containerP"
+            className="containerP"
             onClick={() => {
               handleLocation4();
             }}
@@ -79,7 +79,7 @@ export default function FrontPage() {
               src="https://b.zmtcdn.com/webFrontend/d9d80ef91cb552e3fdfadb3d4f4379761647365057.jpeg?fit=around|402:360&crop=402:360;*,*"
               alt=""
             />
-            <div class="tag">Nightlife and Clubs</div>
+            <div className="tag">Nightlife and Clubs</div>
           </div>
         </div>
         <div className="middle-container">
@@ -106,12 +106,12 @@ export default function FrontPage() {
                   />
                 </div>
                 <section className="whole-bottom-card">
-                  <section class="card-title">
+                  <section className="card-title">
                     <p className="card-title-content">
                       10 Thrilling Live Cricket Screenings
                     </p>
                     <div className="card-places">
-                      <h6 class="card-places-content">10 Places</h6>
+                      <h6 className="card-places-content">10 Places</h6>
                     </div>
                   </section>
                 </section>
@@ -127,10 +127,10 @@ export default function FrontPage() {
                   />
                 </div>
                 <section className="whole-bottom-card">
-                  <section class="card-title">
+                  <section className="card-title">
                     <p className="card-title-content">18 Best Bars & Pubs</p>
 
-                    <div class="card-places">
+                    <div className="card-places">
                       <h6 className="card-places-content">17 Places</h6>
                     </div>
                   </section>
@@ -147,12 +147,12 @@ export default function FrontPage() {
                   />
                 </div>
                 <section className="whole-bottom-card">
-                  <section class="card-title">
+                  <section className="card-title">
                     <p className="card-title-content">
                       16 Must-Visit Legendary Places
                     </p>
 
-                    <div class="card-places">
+                    <div className="card-places">
                       <h6 className="card-places-content">16 Places</h6>
                     </div>
                   </section>
@@ -169,10 +169,10 @@ export default function FrontPage() {
                   />
                 </div>
                 <section className="whole-bottom-card">
-                  <section class="card-title">
+                  <section className="card-title">
                     <p className="card-title-content">9 Great Buffets</p>
 
-                    <div class="card-places">
+                    <div className="card-places">
                       <h6 className="card-places-content">6 Places</h6>
                     </div>
                   </section>

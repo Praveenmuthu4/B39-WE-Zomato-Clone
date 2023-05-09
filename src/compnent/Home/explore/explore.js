@@ -6,6 +6,7 @@ export default function Explore() {
       <div className="exp-wrap">
         <p className="exp-title">Explore other options for you here</p>
         <div className="exp-pop">
+          
           <div className="dropdown">
             <section>
               <div className="expo-container" title="Popular cuisines near me">

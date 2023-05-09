@@ -7,12 +7,12 @@ export default function BasicTextArea({
   value = "",
 }) {
   return (
-    <div class="mb-3">
-      <label for={id} class="form-label">
+    <div className="mb-3">
+      <label for={id} className="form-label">
         {label}
       </label>
       <textarea
-        class="form-control"
+        className="form-control"
         id={id}
         rows="3"
         onChange={handleChange}

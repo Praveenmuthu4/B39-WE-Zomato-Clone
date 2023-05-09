@@ -7,15 +7,15 @@ export default function BasicChecks({
   label = "",
 }) {
   return (
-    <div class="form-check">
+    <div className="form-check">
       <input
-        class="form-check-input"
+        className="form-check-input"
         type="checkbox"
         id={id}
         checked={checked}
         onChange={handleChange}
       />
-      <label class="form-check-label" for={id}>
+      <label className="form-check-label" for={id}>
         {label}
       </label>
     </div>

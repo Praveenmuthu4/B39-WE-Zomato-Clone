@@ -14,7 +14,7 @@ export default function Header(){
             <div className="location-icon-name">
               <span
                 style={{ fontSize: "1.5em", color: "#d92662" }}
-                class="iconify"
+                className="iconify"
                 data-icon="ci:location"
               ></span>
               <div>Allahabad</div>
@@ -25,7 +25,7 @@ export default function Header(){
           <div className="header-searchBar">
             <span
               style={{ fontSize: "2em" }}
-              class="iconify"
+              className="iconify"
               data-icon="ei:search"
             ></span>
             <input

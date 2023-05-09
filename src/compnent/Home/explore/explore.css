@@ -53,6 +53,7 @@
 .expo-content {
   margin-top: 0px;
   margin-left: 0px;
+  height: 66px;
   cursor: pointer;
   display: flex;
   -webkit-box-pack: justify;
@@ -66,19 +67,20 @@
   flex-direction: column;
   -webkit-box-flex: 1;
   flex-grow: 1;
+  min-block-size: auto;
   align-items: flex-start;
 }
 .expo-h5 {
   font-weight: 400;
   color: rgb(28, 28, 28);
   font-size: 20px;
-  line-height: 26px;
+  height: 26px;
   margin: 0px;
 }
 .expo-drop-down {
   color: rgb(105, 105, 105);
   padding: 10px 24px 20px;
-  max-height: 1000rem;
+  
   pointer-events: auto;
   opacity: 1;
   transition: max-height 0.25s ease-in-out 0s, opacity 0.5s linear 0.25s;
@@ -93,15 +95,15 @@
 .fQzRng:hover {
   color: rgb(162, 162, 162);
 }
-.drop-down-1 {
+.drop-down{
   height: 145.19px;
   width: 1098px;
 }
-.drop-down-2 {
+.drop-down{
   height: 70.8px;
   width: 1098px;
 }
-.drop-down-3 {
+.drop-down{
   height: 560.36px;
   width: 1098px;
 }
@@ -163,6 +165,8 @@
 }
 section {
   display: block;
+max-height: none;
+min-height: auto;
 }
 .edot {
   height: 5px;
